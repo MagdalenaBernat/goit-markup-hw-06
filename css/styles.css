@@ -983,9 +983,6 @@
     letter-spacing: 0.01em;
     color: #757575;
     margin-top: 10px;
-
-
-
 }
 
 .input {
@@ -1047,7 +1044,7 @@ textarea:focus {
     margin-top: 20px;
 }
 
-.modal-form-poicy-text {
+.modal-form-policy-text {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -1056,7 +1053,7 @@ textarea:focus {
     margin-left: 8px;
 }
 
-.modal-form-poicy-text::before {
+.modal-form-policy-text::before {
     display: inline-block;
     content: "";
     width: 16px;
@@ -1068,7 +1065,7 @@ textarea:focus {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-poicy:checked+.modal-form-poicy-text::before {
+.modal-form-policy:checked+.modal-form-poicy-text::before {
     background-color: #2196F3;
     outline: 1px solid #2196F3;
     border-radius: 2px;
@@ -1114,8 +1111,67 @@ textarea:focus {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content:space-around;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     margin-top: 30px;
+}
+
+
+.input-mail {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2F303A;
+    margin-top: 20px;
+}
+
+
+.newsletter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.newsletter-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.newsletter-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    fill: #FFFFFF;
+
 }
