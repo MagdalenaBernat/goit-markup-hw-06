@@ -999,8 +999,8 @@
 .modal-icon {
     position: absolute;
     display: flex;
-    width: 18px;
-    height: 18px;
+    width: 14px;
+    height: 14px;
     margin-top: 18px;
     margin-left: 12px;
     fill: #212121
@@ -1069,7 +1069,7 @@ textarea:focus {
     background-color: #2196F3;
     outline: 1px solid #2196F3;
     border-radius: 2px;
-    background-image: url(../images/Vector.svg);
+    background-image: url(../images/check.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1173,5 +1173,4 @@ textarea:focus {
     height: 24px;
     margin-left: 24px;
     fill: #FFFFFF;
-
 }
